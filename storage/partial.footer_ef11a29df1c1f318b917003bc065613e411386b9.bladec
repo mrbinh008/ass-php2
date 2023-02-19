@@ -1,0 +1,44 @@
+</div>
+<!-- ============================================================== -->
+<!-- End Container fluid  -->
+<!-- ============================================================== -->
+<!-- ============================================================== -->
+<!-- footer -->
+<!-- ============================================================== -->
+<footer class="footer text-center">
+ All Rights Reserved by Matrix-admin. Designed and Developed by WrapPixel.
+</footer>
+<!-- ============================================================== -->
+<!-- End footer -->
+<!-- ============================================================== -->
+</div>
+<!-- ============================================================== -->
+<!-- End Page wrapper  -->
+<!-- ============================================================== -->
+</div>
+<!-- ============================================================== -->
+<!-- End Wrapper -->
+<!-- ============================================================== -->
+<!-- ============================================================== -->
+<!-- All Jquery -->
+<!-- ============================================================== -->
+<!--<script src="././views/template/assets/libs/jquery/dist/jquery.min.js"></script>-->
+<!-- Bootstrap tether Core JavaScript -->
+<script src="<?php echo \htmlentities(asset("assets/libs/jquery/dist/jquery.min.js")??'', ENT_QUOTES, 'UTF-8', false); ?>"></script>
+<script src="<?php echo \htmlentities(asset("assets/libs/popper.js/dist/umd/popper.min.js")??'', ENT_QUOTES, 'UTF-8', false); ?>"></script>
+<script src="<?php echo \htmlentities(asset("assets/libs/bootstrap/dist/js/bootstrap.min.js")??'', ENT_QUOTES, 'UTF-8', false); ?>"></script>
+<script src="<?php echo \htmlentities(asset("assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js")??'', ENT_QUOTES, 'UTF-8', false); ?>"></script>
+<script src="<?php echo \htmlentities(asset("assets/extra-libs/sparkline/sparkline.js")??'', ENT_QUOTES, 'UTF-8', false); ?>"></script>
+<!--Wave Effects -->
+<script src="<?php echo \htmlentities(asset("dist/js/waves.js")??'', ENT_QUOTES, 'UTF-8', false); ?>"></script>
+<!--Menu sidebar -->
+<script src="<?php echo \htmlentities(asset("dist/js/sidebarmenu.js")??'', ENT_QUOTES, 'UTF-8', false); ?>"></script>
+<!--Custom JavaScript -->
+<script src="<?php echo \htmlentities(asset("dist/js/custom.min.js")??'', ENT_QUOTES, 'UTF-8', false); ?>"></script>
+<!-- slimscrollbar scrollbar JavaScript -->
+<script src="<?php echo \htmlentities(asset("assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js")??'', ENT_QUOTES, 'UTF-8', false); ?>"></script>
+<script src="<?php echo \htmlentities(asset("assets/extra-libs/sparkline/sparkline.js")??'', ENT_QUOTES, 'UTF-8', false); ?>"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+- Chủ đề tự do
+->yêu cầu xây dựng ít nhất 5 module quản lý  (Không cần phải làm trang người dùng)
+Giai đoạn 1 chấm 1 module quản lý
+- Không chấm quan trọng về giao diện
+- Sử dụng mô hình MVC ở  bai2 áp dụng được class vào
+- Áp dụng được tính thừa kế vào trong mô hình (10 điểm )

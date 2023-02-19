@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <?php /*CSRF Token*/ ?>
+
+ <title><?php echo $this->yieldContent('title'); ?></title>
+
+ <?php /*Styles css common*/ ?>
+ <?php echo $this->runChild("layouts.style"); ?>
+ <?php /*Styles link to file or css custom*/ ?>
+ <?php echo $this->yieldContent('style-libraries'); ?>
+ <?php /*Styles custom*/ ?>
+ <?php echo $this->yieldContent('styles'); ?>
+</head>
+<body>
+<?php echo $this->runChild('partial.header'); ?>
+<?php echo $this->runChild('partial.sidebar'); ?>
+<div class="page-wrapper">
+ <div class="container-fluid">
+ <?php echo $this->yieldContent('content'); ?>
+
+<?php echo $this->yieldContent('scripts'); ?>
+<?php echo $this->runChild('partial.footer'); ?>
+
+<?php /*Scripts js common*/ ?>
+<?php /*<script src="<?php echo \htmlentities(asset('js/jquery-3.4.1.js')??'', ENT_QUOTES, 'UTF-8', false); ?>"></script>*/ ?>
+<?php /*Scripts link to file or js custom*/ ?>
+
+</body>
+</html>
+

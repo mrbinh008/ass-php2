@@ -1,0 +1,24 @@
+{
+  "name": "php2/assignment",
+  "description": "assignment 2",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Mr Bình"
+    }
+  ],
+  "require": {
+    "phroute/phroute": "^2.2",
+    "illuminate/events": "^9.51",
+    "eftec/bladeone": "^4.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    },
+    "files": [
+      "env.php",
+      "common/route.php"
+    ]
+  }
+}
